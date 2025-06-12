@@ -3,7 +3,7 @@ kind: Component
 metadata:
     name: intermatch
     title: Intermatch
-    description: O objetivo deste projet é gerar match entre os participantes do evento ElasConectam
+    description: O objetivo deste projeto é gerar match entre os participantes do evento ElasConectam
     annotations:
         backstage.io/techdocs-ref: dir:.
         github.com/project-slug: Agents4Good/Intermatch
