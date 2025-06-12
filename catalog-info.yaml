@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: intermatch
+    title: Intermatch
+    description: O objetivo deste projet é gerar match entre os participantes do evento ElasConectam
+    annotations:
+        backstage.io/techdocs-ref: dir:.
+        github.com/project-slug: Agents4Good/Intermatch
+
+spec:
+    type: service
+    lifecycle: development
+    owner: Elas Intermatch
