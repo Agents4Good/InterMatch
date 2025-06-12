@@ -1,0 +1,26 @@
+# Ambiente virtual
+venv/
+.env/
+.venv/
+.venv
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos gerados
+#grafo_interesses_full.html
+*.log
+
+# CSVs ou dados sensíveis
+*.csv
+
+# Outros
+.DS_Store
+lib/
