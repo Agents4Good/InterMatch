@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function loadPageContent(pageName) {
-        const fullHtmlUrl = `${pageName}_full.html`; 
+        const timestamp = new Date().getTime();
+        const fullHtmlUrl = `${pageName}_full.html?v=${timestamp}`;
 
 
         dynamicContentArea.innerHTML = ''; 
