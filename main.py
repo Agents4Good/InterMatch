@@ -6,7 +6,7 @@ import re
 import json
 
 
-df = pd.read_csv('ListaParticipantes_Elas.csv', sep=';', encoding="utf-8")
+df = pd.read_csv('ListaParticipantes_Elas.csv')
 df = df[['Nome', 'Quais áreas da tecnologia mais despertam seu interesse?']]
 df = df.dropna(subset=['Nome', 'Quais áreas da tecnologia mais despertam seu interesse?'])
 
