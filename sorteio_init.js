@@ -42,10 +42,10 @@ setTimeout(function() {
     let network = null;
     let lastSorteioUpdateTime = null; 
 
-    const corAreaSorteada = '#d52c01';
-    const corPessoa1 = '#a30161';
-    const corPessoa2 = '#0097b2';
-    const corArestasSorteio = '#5D3B2E';
+    const corAreaSorteada = 'palegreen';
+    const corPessoa1 = 'darkred';
+    const corPessoa2 = 'darkred';
+    const corArestasSorteio = 'forestgreen';
 
 
     function loadGraphDataFromJson() {
