@@ -11,4 +11,4 @@ metadata:
 spec:
     type: service
     lifecycle: development
-    owner: Elas Intermatch
+    owner: ElasIntermatch
