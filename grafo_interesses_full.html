@@ -381,6 +381,12 @@ function highlightFilter(filter) {
                   data = {nodes: nodes, edges: edges};
 
                   var options = {
+    "configure": {
+        "enabled": false,
+        "filter": [
+            "physics"
+        ]
+    },
     "edges": {
         "color": {
             "inherit": true
@@ -395,6 +401,16 @@ function highlightFilter(filter) {
         "hideEdgesOnDrag": false,
         "hideNodesOnDrag": false
     },
+    "physics": {
+        "barnesHut": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.3,
+            "damping": 0.09,
+            "gravitationalConstant": -10000,
+            "springConstant": 0.001,
+            "springLength": 50
+        },
+    }
 };
 
                   
